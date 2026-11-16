@@ -1,4 +1,7 @@
-"""Reproducible observational stress: NO updates to model, state, or weights."""
+"""Reproducible observational stress using the byte-identical frozen DNO core.
+
+This is an optional research audit, not a required model component.
+"""
 from __future__ import annotations
 from dataclasses import replace
 import json
@@ -6,7 +9,7 @@ from pathlib import Path
 import sys
 import numpy as np
 import torch
-from frozen.dno import DNO
+from dno import DNO
 from multiview_observer import compare, snapshot_hash
 
 
