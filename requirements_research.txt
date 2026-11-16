@@ -1,0 +1,2 @@
+# Optional external observational-analysis requirement, not imported by dno.py.
+numpy>=1.26

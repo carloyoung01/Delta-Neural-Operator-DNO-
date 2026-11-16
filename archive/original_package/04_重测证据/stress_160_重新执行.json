@@ -1,0 +1,66 @@
+{
+  "seeds": 160,
+  "cases_per_seed": 8,
+  "positive_cases": 1280,
+  "positive_detected": 1120,
+  "negative_cases": 320,
+  "negative_false_positive": 0,
+  "global_hidden_cases": 160,
+  "global_hidden_success": 160,
+  "identity_only_cases": 160,
+  "identity_only_missed_by_prior_full": 160,
+  "future_law_cases": 160,
+  "future_law_detected": 160,
+  "mutations": 0,
+  "numerical_only_changes_on_balanced_add": 95,
+  "large_tolerance_hidden": 160,
+  "per_field": {
+    "value": {
+      "cases": 160,
+      "found_by_relevant_view": 160,
+      "found_by_original_full": 160
+    },
+    "law": {
+      "cases": 160,
+      "found_by_relevant_view": 160,
+      "found_by_original_full": 160
+    },
+    "boundary": {
+      "cases": 160,
+      "found_by_relevant_view": 160,
+      "found_by_original_full": 160
+    },
+    "observer": {
+      "cases": 160,
+      "found_by_relevant_view": 160,
+      "found_by_original_full": 160
+    },
+    "age": {
+      "cases": 160,
+      "found_by_relevant_view": 160,
+      "found_by_original_full": 160
+    },
+    "support": {
+      "cases": 160,
+      "found_by_relevant_view": 160,
+      "found_by_original_full": 160
+    },
+    "links": {
+      "cases": 160,
+      "found_by_relevant_view": 160,
+      "found_by_original_full": 160
+    },
+    "identity": {
+      "cases": 160,
+      "found_by_relevant_view": 0,
+      "found_by_original_full": 0
+    }
+  },
+  "notes": [
+    "Synthetic perturbations test the observer against known changes; they do not establish learned semantics or causal validity.",
+    "A matching set of partial views cannot establish equivalence under all possible views.",
+    "The original full view omits stable identity labels, which is measured as an observational blind spot, not a model defect.",
+    "Future measurements use the frozen randomly initialized DNO dynamics, not environmental ground truth.",
+    "Finite floating precision and tolerance change detection decisions."
+  ]
+}

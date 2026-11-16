@@ -1,0 +1,51 @@
+{
+  "freeze_date": "2026-11-16",
+  "source_reference_sha256": {
+    "original_v0_math": {
+      "source_path": "/mnt/data/v0_reference_unmodified/DNO_research_v0/MATHEMATICS_ZH.md",
+      "sha256": "cb46d0eb15c945f1bd2f2f7506478018655c4d206ac71b7dae43c052cc3ce703"
+    },
+    "original_v0_core": {
+      "source_path": "/mnt/data/v0_reference_unmodified/DNO_research_v0/dno.py",
+      "sha256": "3fa356ad7e71fec88315642c4ec7c7f212c50a0b578db3a19f014c269bf6fd7e"
+    },
+    "frozen_math_first_core": {
+      "source_path": "/mnt/data/Delta_DNO_math_first_study/delta_core.py",
+      "sha256": "de1ebd30370d4dbe4909f943c49e6d673719f2952d78fc8f22c2b44c7bcf15b4"
+    },
+    "frozen_v4_core": {
+      "source_path": "/mnt/data/Delta_DNO_math_first_study/reference_v4/dno_exposure.py",
+      "sha256": "41d5813f36b1e83ac1f7db1c0fa3f8d51a56bd6cc0f5e854b78b91a45299cabe"
+    }
+  },
+  "files": {
+    "FINAL_REPORT_ZH.md": "f1514157539fb719075b966dfffed2b655f91fe55252384ec3364eea055f5694",
+    "FROZEN_SCOPE_ZH.md": "8850cf0217c73298c593c3aebe85345656f6284e21f12d8cf7d005ef4fbee686",
+    "MATH_FINAL_ZH.md": "dd373b120db849f1e55f0ed6f40365570208453dcfa0d9fa39c0a3006d9463d0",
+    "README.md": "352cd00ab5032ade87203026f3d504df2168aef709f47f5b5f95e1cec2c8b39a",
+    "demo.py": "83bddb5a78784644b5d1d8dd54ad17ff3b68df1f7c4d6f402769899933562fb4",
+    "dno.py": "fea8d9ea81c94dbf926b984b3c158f301afc71782f989c73b3c9bd02fac767b1",
+    "evidence/TEST_SUMMARY.json": "2e60826b0c1627a0aed9edfe78b21e9a061e12b6128b103f93d17187f4406bcb",
+    "evidence/checkpoint_verification.json": "ce8291c2a672351283a4572951f60f661a1622ef229e3bacd6ea60ef81f82ffe",
+    "evidence/checkpoint_verification.log": "408fb65657991564615e8c2ed370e11e9a0b7ee684f57b1186e32ce55806cb4a",
+    "evidence/counterfactual_run.log": "ce7c24d40e1df0a6ae7a1151f512a67bd62075e9d2a090342fd48bed8536a715",
+    "evidence/counterfactuals.json": "aecc88be5fd5cdffd938ad45c187b547f06263f9c0291bb2f6130168b3255a8b",
+    "evidence/final_tests.log": "3b93cefd50a2fd259bcc01e32004030e83b1d0f50f30951887f067c3cf9d7014",
+    "evidence/history_17.pt": "ffb5fa9350f6fa5c55b2d9e90d0b944db58a9ee29d86efd25bd962a579142a71",
+    "evidence/history_31.pt": "0ea7b3d294289a975a8a2d7a6925d661d76cb1db70e88b24d867a51ea010aa7d",
+    "evidence/pair_13.pt": "c4ed655e60902f4ae636ce2331de7e1a975c1b618d219c2db0f4478f41e36972",
+    "evidence/pair_29.pt": "0f138327bfce39e0d526c2b23b0899c02790f4d04cfcc9aeab710e4d947d726a",
+    "evidence/training_results.json": "30f39aa1843bd3ece0beaecc288bff1f9517624b8a9fe5eac53814fae792ca31",
+    "evidence/training_run.log": "48cb8364465425564e26eade292725ab8d975fe0b2a0069abd06c91b2a549cbd",
+    "evidence/v0_regression.log": "6e8379d8019c52e99ed630414919948b25095d491a73a3c3f77afcbb57d20f55",
+    "evidence/v4_regression.log": "c19e92cd32e455291cd12225e3af2d7613f614f90242282f74e932177d1f89e8",
+    "probe_counterfactuals.py": "02587af5400206eb2d49b648d8c19eaa5d5176eaeea410f439a6c581a4f66b23",
+    "reference/ORIGINAL_V0_CODE.py": "3fa356ad7e71fec88315642c4ec7c7f212c50a0b578db3a19f014c269bf6fd7e",
+    "reference/ORIGINAL_V0_MATHEMATICS_ZH.md": "cb46d0eb15c945f1bd2f2f7506478018655c4d206ac71b7dae43c052cc3ce703",
+    "reference/PREVIOUS_MATH_CONTRACT_ZH.md": "daf940ec595e610e89684a1fc875b3669d40608460e7f0d5941939d3f2fba3ae",
+    "requirements.txt": "669ebeac39de26d6dd9e4729780883314b189fa573f430e80e5d15f1a48944e0",
+    "tests/test_final.py": "fdcfec2fe809a6c6d11e675e2fda72427152fdeba31132999ada8074331a1bbe",
+    "train_synthetic.py": "a2fe593052f6f9df49abdedf8aa97db61f89a7aad9ee68c731d27658fce692ea",
+    "verify_checkpoints.py": "e8ca28702b28701400a5c98a78a3a5af64b9482e52a0811852f4a230c5f75d46"
+  }
+}

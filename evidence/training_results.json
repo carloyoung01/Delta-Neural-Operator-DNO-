@@ -1,0 +1,42 @@
+{
+  "pair": [
+    {
+      "seed": 13,
+      "steps": 450,
+      "mse": 0.00027431175112724304,
+      "source_acc": 1.0,
+      "target_acc": 1.0,
+      "no_query_mse": 1.5158313512802124
+    },
+    {
+      "seed": 29,
+      "steps": 450,
+      "mse": 0.00030044830054976046,
+      "source_acc": 1.0,
+      "target_acc": 1.0,
+      "no_query_mse": 1.5783382654190063
+    }
+  ],
+  "history": [
+    {
+      "seed": 17,
+      "steps": 350,
+      "test_accuracy": {
+        "3": 1.0,
+        "7": 1.0,
+        "15": 1.0
+      },
+      "removed_history_accuracy": 0.50390625
+    },
+    {
+      "seed": 31,
+      "steps": 350,
+      "test_accuracy": {
+        "3": 1.0,
+        "7": 1.0,
+        "15": 1.0
+      },
+      "removed_history_accuracy": 0.5439453125
+    }
+  ]
+}

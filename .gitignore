@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+*.egg-info/
+# Original .pt training checkpoints are intentionally tracked in evidence/

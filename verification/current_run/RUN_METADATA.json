@@ -1,0 +1,53 @@
+{
+  "release": "DNO v1.0.0",
+  "rebuild_date": "2026-11-17",
+  "core_sha256": "fea8d9ea81c94dbf926b984b3c158f301afc71782f989c73b3c9bd02fac767b1",
+  "python": "3.13.5",
+  "torch": "2.10.0+cpu",
+  "pytest": "9.0.2",
+  "commands": [
+    "python -m pytest -q -p no:cacheprovider tests/test_final.py tests/test_modal_interfaces.py research_tests",
+    "python train_synthetic.py --pair-steps 450 --history-steps 350 --out evidence",
+    "python verify_checkpoints.py",
+    "python probe_counterfactuals.py",
+    "python demo.py"
+  ],
+  "test_groups": {
+    "core": 32,
+    "numeric_interfaces": 16,
+    "external_research": 114,
+    "total_passed": 162
+  },
+  "new_checkpoints": {
+    "history_17.pt": "087c62cea083571672e7c3e2bd169f9c1cb43a0944245cbe8209de8ffad1c155",
+    "history_31.pt": "844a30935a8fe9c1bb43e1264bb922889192de7c64a223c4d36b0e2a484d1bcb",
+    "pair_13.pt": "f2c081474b2048aef0ab23ec8875196d3a4dd65768e6d8a636d57e532e5aee19",
+    "pair_29.pt": "95e9e88c6405a8ac3f800c2cdf72bd3f66683c634b6132a25b2ae91e4e89b091"
+  },
+  "historical_checkpoint_comparison": [
+    {
+      "name": "pair_13.pt",
+      "new_bytes_equal_original": false,
+      "original_sha256": "c4ed655e60902f4ae636ce2331de7e1a975c1b618d219c2db0f4478f41e36972",
+      "new_sha256": "f2c081474b2048aef0ab23ec8875196d3a4dd65768e6d8a636d57e532e5aee19"
+    },
+    {
+      "name": "pair_29.pt",
+      "new_bytes_equal_original": false,
+      "original_sha256": "0f138327bfce39e0d526c2b23b0899c02790f4d04cfcc9aeab710e4d947d726a",
+      "new_sha256": "95e9e88c6405a8ac3f800c2cdf72bd3f66683c634b6132a25b2ae91e4e89b091"
+    },
+    {
+      "name": "history_17.pt",
+      "new_bytes_equal_original": false,
+      "original_sha256": "ffb5fa9350f6fa5c55b2d9e90d0b944db58a9ee29d86efd25bd962a579142a71",
+      "new_sha256": "087c62cea083571672e7c3e2bd169f9c1cb43a0944245cbe8209de8ffad1c155"
+    },
+    {
+      "name": "history_31.pt",
+      "new_bytes_equal_original": false,
+      "original_sha256": "0ea7b3d294289a975a8a2d7a6925d661d76cb1db70e88b24d867a51ea010aa7d",
+      "new_sha256": "844a30935a8fe9c1bb43e1264bb922889192de7c64a223c4d36b0e2a484d1bcb"
+    }
+  ]
+}

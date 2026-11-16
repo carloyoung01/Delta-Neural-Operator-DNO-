@@ -1,0 +1,4 @@
+current IDs: (0, 1, 2)
+without new external input, current state changed: True
+currently unfolded opportunity: (2, 2)
+after one generic composition: IDs (0, 1, 2, 3) incidence ((0, 3), (3, 1))

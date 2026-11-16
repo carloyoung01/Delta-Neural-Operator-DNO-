@@ -1,0 +1,28 @@
+{
+  "pair": [
+    {
+      "checkpoint": "pair_13.pt",
+      "fresh_mse": 0.0002888851158786565,
+      "source_acc": 1.0,
+      "target_acc": 1.0
+    },
+    {
+      "checkpoint": "pair_29.pt",
+      "fresh_mse": 0.0002791318984236568,
+      "source_acc": 1.0,
+      "target_acc": 1.0
+    }
+  ],
+  "history": [
+    {
+      "checkpoint": "history_17.pt",
+      "fresh_acc": 1.0,
+      "no_first_input_acc": 0.5126953125
+    },
+    {
+      "checkpoint": "history_31.pt",
+      "fresh_acc": 1.0,
+      "no_first_input_acc": 0.5185546875
+    }
+  ]
+}

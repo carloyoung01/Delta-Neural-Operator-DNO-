@@ -1,0 +1,48 @@
+{
+  "kind": "synthetic interface execution only; no training, no real-world quality estimate",
+  "seed": 2026,
+  "core_parameter_count": 12900,
+  "same_untrained_model_parameters_for_all_inputs": true,
+  "results": {
+    "image_patches": {
+      "input_units": 4,
+      "input_width": 8,
+      "finite": true,
+      "autonomous_value_change_l2": 0.08308050036430359,
+      "observation_width": 8,
+      "proposed_source_probability_sum": 0.9999999403953552,
+      "proposed_target_probability_sum": 1.0000001192092896,
+      "actual_interaction_committed": false
+    },
+    "video_cubes": {
+      "input_units": 8,
+      "input_width": 8,
+      "finite": true,
+      "autonomous_value_change_l2": 0.11834242939949036,
+      "observation_width": 8,
+      "proposed_source_probability_sum": 1.0,
+      "proposed_target_probability_sum": 1.0000001192092896,
+      "actual_interaction_committed": false
+    },
+    "audio_frames": {
+      "input_units": 4,
+      "input_width": 8,
+      "finite": true,
+      "autonomous_value_change_l2": 0.09437805414199829,
+      "observation_width": 8,
+      "proposed_source_probability_sum": 1.0,
+      "proposed_target_probability_sum": 1.0,
+      "actual_interaction_committed": false
+    },
+    "symbolic_vectors": {
+      "input_units": 4,
+      "input_width": 8,
+      "finite": true,
+      "autonomous_value_change_l2": 0.08941999077796936,
+      "observation_width": 8,
+      "proposed_source_probability_sum": 1.0,
+      "proposed_target_probability_sum": 1.0,
+      "actual_interaction_committed": false
+    }
+  }
+}

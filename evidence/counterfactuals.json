@@ -1,0 +1,457 @@
+{
+  "seeds": 64,
+  "created_new_carrier": 30,
+  "history_effect_nonzero": 64,
+  "silent_flow_exact_zero": 30,
+  "current_relation_changes_address": 30,
+  "details": [
+    {
+      "seed": 0,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.677199125289917,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 1,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.6329705715179443,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 2,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.5511976480484009,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 3,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.7401962280273438,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.003688941476866603
+    },
+    {
+      "seed": 4,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.47958192229270935,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.008322972804307938
+    },
+    {
+      "seed": 5,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.8801372051239014,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 6,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.5920208096504211,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.0086534908041358
+    },
+    {
+      "seed": 7,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.5556307435035706,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 8,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.6273565292358398,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 9,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.48085644841194153,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.005687575787305832
+    },
+    {
+      "seed": 10,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.6502695083618164,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.0005460602696985006
+    },
+    {
+      "seed": 11,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.6985247135162354,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 12,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.46734246611595154,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.00798141211271286
+    },
+    {
+      "seed": 13,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.48597460985183716,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 14,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.6500799655914307,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 15,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.5321387052536011,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.007710503879934549
+    },
+    {
+      "seed": 16,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.7300746440887451,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 17,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.4567027986049652,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 18,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.5666638612747192,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.006612923461943865
+    },
+    {
+      "seed": 19,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.5076465010643005,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.003819432808086276
+    },
+    {
+      "seed": 20,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.7785240411758423,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 21,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.5111372470855713,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 22,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.6828227639198303,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.0021763683762401342
+    },
+    {
+      "seed": 23,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.4389086663722992,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.0009646046091802418
+    },
+    {
+      "seed": 24,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.8253887295722961,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 25,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.6533826589584351,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 26,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.712243914604187,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.0035740984603762627
+    },
+    {
+      "seed": 27,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.3880976438522339,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 28,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.5865450501441956,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.003164036199450493
+    },
+    {
+      "seed": 29,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.6159083843231201,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.0066741774789988995
+    },
+    {
+      "seed": 30,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.6454398036003113,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 31,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.5940707921981812,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 32,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.5521297454833984,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.007076486013829708
+    },
+    {
+      "seed": 33,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.5008544325828552,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 34,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.5971326231956482,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 35,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.570862889289856,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.0008510355255566537
+    },
+    {
+      "seed": 36,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.6554662585258484,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.004223509691655636
+    },
+    {
+      "seed": 37,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.5909454226493835,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 38,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.5207752585411072,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 39,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.6892651915550232,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.007228527218103409
+    },
+    {
+      "seed": 40,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.4632931649684906,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 41,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.5322838425636292,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.0007541617378592491
+    },
+    {
+      "seed": 42,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.4547816812992096,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.006447766441851854
+    },
+    {
+      "seed": 43,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.59563148021698,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.006179651711136103
+    },
+    {
+      "seed": 44,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.4722363352775574,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.006415390409529209
+    },
+    {
+      "seed": 45,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.6955426335334778,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 46,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.6261520981788635,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.00014030697639100254
+    },
+    {
+      "seed": 47,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.7798515558242798,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.004797069821506739
+    },
+    {
+      "seed": 48,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.7052182555198669,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 49,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.7017301321029663,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.0026747840456664562
+    },
+    {
+      "seed": 50,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.6470296382904053,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 51,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.5781195759773254,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 52,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.6016138792037964,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.003496800782158971
+    },
+    {
+      "seed": 53,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.7826966047286987,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 54,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.6703882217407227,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 55,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.6533442139625549,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.0013221283443272114
+    },
+    {
+      "seed": 56,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.5660847425460815,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 57,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.694372832775116,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 58,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.7946259379386902,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 59,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.4613161087036133,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 60,
+      "new_carrier_created": false,
+      "effect_after_relation_removed": 0.696662425994873,
+      "silent_flow_effect": null,
+      "relation_changes_future_address": null
+    },
+    {
+      "seed": 61,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.7984583377838135,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.00326223555020988
+    },
+    {
+      "seed": 62,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.6131327152252197,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.000811263220384717
+    },
+    {
+      "seed": 63,
+      "new_carrier_created": true,
+      "effect_after_relation_removed": 0.5982413291931152,
+      "silent_flow_effect": 0.0,
+      "relation_changes_future_address": 0.008079894818365574
+    }
+  ]
+}

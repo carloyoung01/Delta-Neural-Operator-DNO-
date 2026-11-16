@@ -1,0 +1,21 @@
+{
+  "run_date": "2026-11-16",
+  "python": "3.13.5",
+  "torch": "2.10.0+cpu",
+  "pytest": {
+    "core": 32,
+    "cross_domain_input_contract": 16,
+    "multi_view_research": 114,
+    "total_passed": 162,
+    "failed": 0
+  },
+  "numpy": "2.3.5",
+  "saved_checkpoints": 4,
+  "passed_reloaded_checkpoints": 4,
+  "random_stress_seeds": 160,
+  "core_sha256": "fea8d9ea81c94dbf926b984b3c158f301afc71782f989c73b3c9bd02fac767b1",
+  "original_release_members": 72,
+  "original_unchanged": true,
+  "research_archives": 21,
+  "not_a_claim_of": "all-task or large-scale performance equivalence"
+}

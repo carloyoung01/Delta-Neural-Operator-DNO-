@@ -1,0 +1,10 @@
+{
+  "global_only": "undetermined",
+  "global_then_local": "value",
+  "content_only": "undetermined",
+  "content_then_law": "law",
+  "old_full_misses_ids": "undetermined",
+  "identity_observer_finds_ids": true,
+  "all_checked_and_same": "undetermined",
+  "read_only": true
+}

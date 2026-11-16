@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-16",
+  "reference": "Delta original v0 concepts, no changes to original files",
+  "python_core_lines": 298,
+  "torch": "2.10.0+cpu",
+  "new_core_pytest": {
+    "passed": 32,
+    "failed": 0
+  },
+  "legacy_v0_pytest": {
+    "passed": 8,
+    "failed": 0
+  },
+  "legacy_v4_pytest": {
+    "passed": 18,
+    "failed": 0,
+    "warnings": 1
+  },
+  "training": {
+    "pair": [
+      {
+        "seed": 13,
+        "steps": 450,
+        "mse": 0.00027431169291958213,
+        "source_acc": 1.0,
+        "target_acc": 1.0,
+        "no_query_mse": 1.5158313512802124
+      },
+      {
+        "seed": 29,
+        "steps": 450,
+        "mse": 0.00030044850427657366,
+        "source_acc": 1.0,
+        "target_acc": 1.0,
+        "no_query_mse": 1.578338384628296
+      }
+    ],
+    "history": [
+      {
+        "seed": 17,
+        "steps": 350,
+        "test_accuracy": {
+          "3": 1.0,
+          "7": 1.0,
+          "15": 1.0
+        },
+        "removed_history_accuracy": 0.50390625
+      },
+      {
+        "seed": 31,
+        "steps": 350,
+        "test_accuracy": {
+          "3": 1.0,
+          "7": 1.0,
+          "15": 1.0
+        },
+        "removed_history_accuracy": 0.5439453125
+      }
+    ]
+  },
+  "checkpoint_fresh_evaluation": {
+    "pair": [
+      {
+        "checkpoint": "pair_13.pt",
+        "fresh_mse": 0.0002888851158786565,
+        "source_acc": 1.0,
+        "target_acc": 1.0
+      },
+      {
+        "checkpoint": "pair_29.pt",
+        "fresh_mse": 0.0002791318984236568,
+        "source_acc": 1.0,
+        "target_acc": 1.0
+      }
+    ],
+    "history": [
+      {
+        "checkpoint": "history_17.pt",
+        "fresh_acc": 1.0,
+        "no_first_input_acc": 0.5126953125
+      },
+      {
+        "checkpoint": "history_31.pt",
+        "fresh_acc": 1.0,
+        "no_first_input_acc": 0.5185546875
+      }
+    ]
+  },
+  "counterfactuals": {
+    "seeds": 64,
+    "created_new_carrier": 30,
+    "history_effect_nonzero": 64,
+    "silent_flow_exact_zero": 30,
+    "current_relation_changes_address": 30
+  },
+  "limitations": [
+    "finite semantics and dimensions",
+    "no guarantee of complete possibilities",
+    "not demonstrated open-world language or autonomous meaningful abstractions",
+    "no identical-budget Transformer energy comparison",
+    "training did not optimize discrete child-creation policy"
+  ]
+}
