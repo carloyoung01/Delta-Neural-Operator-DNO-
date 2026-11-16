@@ -2,6 +2,16 @@
 
 **Carlo Young** · **Version 1.0.0** · **Apache License 2.0**
 
+> **Beyond Conventional Neural Computation — Exploring a New Frontier in AI Architecture**
+>
+> **What if neural computation could transform its own effective structure through interaction?**
+>
+> DNO is an open-source, trainable experimental neural architecture exploring evolving effective states, relatively autonomous computational carriers, and history-dependent interactions. Rather than treating every transformation as a separately predefined algorithmic category, it investigates how shared learnable dynamics and executed interactions can reshape the structures that condition future computation.
+>
+> **Explore the core. Run the experiments. Test what comes next.**
+
+**Research positioning:** DNO explores alternative foundations for neural computation. “Beyond conventional” describes the research direction, **not** a demonstrated performance advantage over Transformers or commercial LLMs. DNO is not a pretrained language model; broader comparative evaluation remains future work.
+
 ## Start here: executable DNO source
 
 **The DNO core is available directly as readable Python source — no ZIP extraction is needed to inspect it.**
