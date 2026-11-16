@@ -80,6 +80,7 @@ python train_synthetic.py --pair-steps 450 --history-steps 350 --out /tmp/dno-tr
 ## Documentation
 
 - [Architecture and mathematics](docs/ARCHITECTURE.md)
+- [Delta theory and DNO architecture correspondence](docs/THEORY_TO_ARCHITECTURE.md)
 - [Training and data](docs/TRAINING_AND_DATA.md)
 - [Experimental results](docs/EXPERIMENTS.md)
 - [Future research](docs/RESEARCH_OUTLOOK.md)
