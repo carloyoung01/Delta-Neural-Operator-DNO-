@@ -2,6 +2,30 @@
 
 **Carlo Young** · **Version 1.0.0** · **Apache License 2.0**
 
+## Start here: executable DNO source
+
+**The DNO core is available directly as readable Python source — no ZIP extraction is needed to inspect it.**
+
+| Open directly | Purpose |
+|---|---|
+| **[dno.py — CORE SOURCE CODE](dno.py)** | Main executable neural computation architecture |
+| **[demo.py — RUN A DEMO](demo.py)** | Minimal example of state evolution and composition |
+| **[train_synthetic.py — TRAIN THE MODEL](train_synthetic.py)** | Reproducible synthetic training program |
+| [requirements.txt](requirements.txt) | Python dependencies |
+| [tests/](tests/) | Automated core tests |
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Mathematical and architectural explanation |
+
+**Quick start** (Python environment with dependencies installed):
+
+```bash
+python -m pip install -r requirements.txt
+python demo.py
+```
+
+The core file `dno.py` is a Python module, not a standalone executable or a pretrained language model. `demo.py` demonstrates how to run it. The full repository also contains training, verification, and research materials. GitHub's automatic release source archives are downloadable copies of these same repository files, not the only way to access the code.
+
+---
+
 Delta Neural Operator is a trainable neural computation architecture based on effective current state, shared generative dynamics, and interactions among relatively autonomous computational carriers. A state incorporates the effective consequences of earlier interactions and conditions what can happen next. Interactions may modify their participants, create further carriers, and thereby change subsequent interactions.
 
 Observation may occur, change, or remain absent. State evolution does not require an observation on every step. Conditional future states are described by the current state and the operations that can be applied; no catalog of all future outcomes is needed.
