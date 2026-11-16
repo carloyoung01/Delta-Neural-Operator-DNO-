@@ -7,7 +7,7 @@ python -m pytest -q -p no:cacheprovider tests/test_final.py tests/test_modal_int
 162 passed in 2.37s
 ```
 
-`python verify_checkpoints.py` passed for all four original saved model files on fresh samples:
+`python verify_checkpoints.py` passed for all four newly regenerated release checkpoints on fresh samples:
 
 | Checkpoint | Verification |
 | --- | --- |
@@ -18,6 +18,6 @@ python -m pytest -q -p no:cacheprovider tests/test_final.py tests/test_modal_int
 
 The distributed `dno.py` SHA-256 equals the original: `fea8d9ea81c94dbf926b984b3c158f301afc71782f989c73b3c9bd02fac767b1`.
 
-The four distributed `.pt` files were compared byte-for-byte to the originals in `archive/original_package/`.
+The four release `.pt` checkpoints are newly trained and are **not** byte-for-byte identical to the historical checkpoints under `archive/original_package/`. This distinction is recorded with separate SHA-256 digests in `verification/current_run/RUN_METADATA.json`. The core `dno.py`, in contrast, remains byte-for-byte identical to the archived frozen core.
 
 The verification program writes `evidence/checkpoint_verification.json`; tests were intentionally run in a disposable copy to preserve the distribution's original file hashes.
