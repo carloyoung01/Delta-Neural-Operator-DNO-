@@ -60,7 +60,7 @@ $$
 The generator is invoked for single-carrier local evolution and executed two-carrier composition. Outputs are interpreted by the concrete operation. The overall recurrence is shorthand for
 
 $$
-\Omega_{t+\Delta t}=\operatorname{Canon}(\operatorname{Apply}_{G_\theta}(\Omega_t,e_t,a_t,\Delta t)).
+\Omega_{t+\Delta t}=\mathrm{Canon}(\mathrm{Apply}_{G_\theta}(\Omega_t,e_t,a_t,\Delta t)).
 $$
 
 This does **not** introduce a new global controller. `Canon` describes current-state housekeeping, especially exact-zero-support release.
@@ -97,7 +97,7 @@ Observation is not mandatory at each update. `observe()` reads current state, `a
 Conditional successor possibilities can be characterized as
 
 $$
-\mathcal P_t=\operatorname{Im}\left[(e,a)\mapsto\operatorname{Canon}(\operatorname{Apply}_{G_\theta}(\Omega_t,e,a))\right].
+\mathcal P_t=\mathrm{Im}\left[(e,a)\mapsto\mathrm{Canon}(\mathrm{Apply}_{G_\theta}(\Omega_t,e,a))\right].
 $$
 
 The expression does not mean all possible successors are computed, stored, or enumerated.
