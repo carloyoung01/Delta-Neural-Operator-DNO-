@@ -12,6 +12,16 @@
 
 **Research positioning:** DNO explores alternative foundations for neural computation. “Beyond conventional” describes the research direction, **not** a demonstrated performance advantage over Transformers or commercial LLMs. DNO is not a pretrained language model; broader comparative evaluation remains future work.
 
+## Read the complete Delta theory
+
+**[Delta Unified Recursive Generative Theory — full English text](DELTA_UNIFIED_RECURSIVE_GENERATIVE_THEORY.md)**
+
+A standalone, readable 11-section research text covering existence, relations, interactions, structure, effective state, history, possibility, recursive generation, mathematical boundaries, and a separate philosophical interpretation. **Share this direct article link on X**; no download is required.
+
+For how this theory relates to the executable DNO architecture, see [Theory-to-architecture mapping](docs/THEORY_TO_ARCHITECTURE.md).
+
+---
+
 ## Start here: executable DNO source
 
 **The DNO core is available directly as readable Python source — no ZIP extraction is needed to inspect it.**
