@@ -1,6 +1,6 @@
 # Delta Neural Operator (DNO)
 
-**Carlo Young** · **Version 1.0.0** · **Apache License 2.0**
+**Carlo Young** · **DNO 1.0 research series** · **Apache License 2.0**
 
 > **Beyond Conventional Neural Computation — Exploring a New Frontier in AI Architecture**
 >
@@ -42,7 +42,7 @@ Observation may occur, change, or remain absent. State evolution does not requir
 
 ## Language and source provenance
 
-**The active DNO v1.0.0 source code, README, architecture, training, experiment and release documentation are maintained in English.** Historical records under `archive/original_package/` and `verification/previous_audit/` retain their original languages and filenames for provenance and reproducibility; they are not part of the primary English documentation. References to those original paths are preserved deliberately.
+**The active DNO source code, README, architecture, training, experiment and release documentation are maintained in English.** Historical records under `archive/original_package/` and `verification/previous_audit/` retain their original languages and filenames for provenance and reproducibility; they are not part of the primary English documentation. References to those original paths are preserved deliberately.
 
 Any future Chinese translation should be published as a clearly labeled, separate translation under `docs/zh/`, not interleaved with the English release documents.
 
