@@ -29,7 +29,7 @@ $$
 ## 3. Recurrence and conditional successors
 
 $$
-\Omega_{t+\Delta t}=\operatorname{Canon}\left(\operatorname{Apply}_{G_\theta}(\Omega_t,e_t,a_t,\Delta t)\right).
+\Omega_{t+\Delta t}=\mathrm{Canon}\left(\mathrm{Apply}_{G_\theta}(\Omega_t,e_t,a_t,\Delta t)\right).
 $$
 
 This is shorthand for the concrete operation that is **actually invoked**, not a new controller or mandatory pipeline. `Canon` represents current-state housekeeping, chiefly exact-zero-support release in `compact()`.
@@ -43,7 +43,7 @@ $$
 The map is set-valued in the mathematical description, while execution follows concrete input and action choices. Given an allowed domain of conditions, a corresponding successor image is
 
 $$
-\mathcal P_t=\operatorname{Im}\left[(e,a)\mapsto\operatorname{Canon}(\operatorname{Apply}_{G_\theta}(\Omega_t,e,a))\right].
+\mathcal P_t=\mathrm{Im}\left[(e,a)\mapsto\mathrm{Canon}(\mathrm{Apply}_{G_\theta}(\Omega_t,e,a))\right].
 $$
 
 This expression does not add a separate successor enumerator or data structure. Only actual requested operations run. As the effective state changes, the image of possible successors may also change.
