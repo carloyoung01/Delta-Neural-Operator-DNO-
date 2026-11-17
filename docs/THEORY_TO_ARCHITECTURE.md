@@ -3,7 +3,7 @@
 **Author:** Carlo Young  
 **Project:** Delta Neural Operator (DNO)  
 **License:** Apache License 2.0  
-**Status:** Research documentation accompanying DNO v1.0.0; not a new implementation or verification run.
+**Status:** Research documentation accompanying the DNO 1.0 series; not a new implementation or verification run.
 
 ## 1. Scope and positioning
 
