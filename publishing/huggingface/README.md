@@ -22,7 +22,7 @@ This Hugging Face repository mirrors a curated subset of the GitHub source, incl
 Architecture research, defined synthetic-task reproduction, and independent experimental extensions.
 
 ## Evidence and limitations
-The GitHub v1.0.0 research materials report passing automated tests and successful checkpoint evaluations in their specified synthetic settings. See `docs/EXPERIMENTS.md` and `docs/VERIFICATION_REPORT.md` for details, controls, and scope. These results do not establish general-purpose language capabilities, broad model superiority, or energy savings.
+The documented GitHub research materials report passing automated tests and successful checkpoint evaluations in their specified synthetic settings. See `docs/EXPERIMENTS.md` and `docs/VERIFICATION_REPORT.md` for details, controls, and scope. These results do not establish general-purpose language capabilities, broad model superiority, or energy savings.
 
 ## Reproduction
 Refer to the [complete GitHub repository](https://github.com/carloyoung01/Delta-Neural-Operator-DNO-) for the full source, test suite, dependencies, and provenance.
